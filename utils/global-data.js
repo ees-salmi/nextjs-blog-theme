@@ -1,13 +1,13 @@
 export const getGlobalData = () => {
   const name = process.env.BLOG_NAME
     ? decodeURI(process.env.BLOG_NAME)
-    : 'Jay Doe';
+    : 'ESSALMI ELMUSTAPHA';
   const blogTitle = process.env.BLOG_TITLE
     ? decodeURI(process.env.BLOG_TITLE)
-    : 'Next.js Blog Theme';
+    : 'COURS DE SOUTIEN EN INFORMATIQUE';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
-    : 'All rights reserved.';
+    : 'INSCRIPTION EN BAS .';
 
   return {
     name,
